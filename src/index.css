@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Artifika&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 1px 7px 5px 0px rgba(17, 34, 64, 0.75);
+    -webkit-box-shadow: 1px 7px 5px 0px rgba(17, 34, 64, 0.75);
+    -moz-box-shadow: 1px 7px 5px 0px rgba(17, 34, 64, 0.75);
+}
+
+.mode {
+    writing-mode: vertical-rl;
+}
+
+.universalPadding {
+    @apply px-7 md:px-10 lg:px-20;
+}
+
+.sidemenuRight {
+    @apply fixed bottom-1 right-9 lg:right-20 flex flex-col justify-center items-center gap-8;
+}
+
+.sidemenuLeft {
+    @apply fixed bottom-1 left-9 lg:left-20 flex flex-col justify-center items-center gap-8;
+}
+
+.universalbodypadding {
+    @apply flex flex-col items-center justify-center px-6 md:px-24 lg:px-40 xl:px-56 m-auto;
+}
+
+.aboutpara {
+    @apply text-textcl5 text-base sm:text-base
+}
+
+.background {
+    @apply bg-[url('./images/myPix.png')] h-full w-full bg-no-repeat bg-cover bg-center bg-textimage;
+}
+
+.maximum {
+    max-width: 1120px;
+}
+
+.hvvh {
+    color: #2b5048;
+}
+
+/* .overpower {
+    z-index: 50!important;
+} */
+
+
+/* @media screen and (min-width: 1024px) {
+    .customLeft {
+        left: 22rem;
+    }
+} */
