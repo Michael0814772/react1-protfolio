@@ -6,7 +6,7 @@ import { Loading } from './container';
 const Home = React.lazy(
   () =>
     new Promise((resolve, reject) =>
-      setTimeout(() => resolve(import("./HomePage")), 5000)
+      setTimeout(() => resolve(import("./HomePage")), 3000)
     )
 );
 
