@@ -3,12 +3,14 @@ import { Routes, Route } from 'react-router-dom';
 import React, { lazy, Suspense } from 'react';
 import { Loading } from './container';
 
-const Home = React.lazy(
-  () =>
-    new Promise((resolve, reject) =>
-      setTimeout(() => resolve(import("./HomePage")), 3000)
-    )
-);
+const Home = React.lazy(() => (import("./HomePage")));
+
+// const Home = React.lazy(
+//   () =>
+//     new Promise((resolve, reject) =>
+//       setTimeout(() => resolve(import("./HomePage")), 3000)
+//     )
+// );
 
 
 function App() {
