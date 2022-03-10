@@ -18,8 +18,8 @@ const Introduction = () => {
         </h1>
       </div>
 
-      <div className="w-full mb-10">
-        <p className="text-textcl5 text-textp2 max-w-xl">
+      <div className="w-full mb-10 2xl:mb-20">
+        <p className="text-textcl5 text-textp2 w-xl xl:w-11/12 2xl:w-8/12">
           I’m a software engineer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
           building accessible, human-centered products.

@@ -19,7 +19,7 @@ const NoteWorthyProjects = () => {
         <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:col-span-3">
           {noteWorthyProjects.map((projects) => (
             <li
-              className="group col-span-1 w-full h-height440 md:h-height550px lg:h-height440 mb-8 bg-backgroundcard transition-all duration-300 hover:-mt-5 py-10 px-8 cursor-pointer"
+              className="group col-span-1 w-full h-height440 md:h-height550px lg:h-height440 mb-8 bg-backgroundcard hover:-mt-5 transition-all duration-700 py-10 px-8 cursor-pointer"
               key={projects.id}
               data-aos="zoom-out"
               data-aos-easing="linear"
