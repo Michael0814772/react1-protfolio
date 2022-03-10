@@ -15,7 +15,7 @@ const Navbar = () => {
     <div>
       <div className='flex py-4 md:py-6 w-full justify-between items-center md:items-center universalPadding'>
         <div className='text-textcl1 w-full h-full'>
-          <img src={logo} alt="logo" className='w-10' />  
+          <a href="#introduction"><img src={logo} alt="logo" className='w-10' /> </a> 
         </div>
         <div className={`md:hidden absolute h-screen bg-backgroundcard top-0 ${toggle ? '-right-10' : '-right-full'} transition-all duration-700 w-11/12 flex flex-col items-center justify-center `}>
           {navContent.map(n => (
