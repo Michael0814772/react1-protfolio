@@ -2,15 +2,21 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import React, { lazy, Suspense } from 'react';
 import { Loading } from './container';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // const Home = React.lazy(() => (import("./HomePage")));
 
 const Home = React.lazy(
   () =>
     new Promise((resolve, reject) =>
-      setTimeout(() => resolve(import("./HomePage")), 3000)
+      setTimeout(() => resolve(import("./HomePage")), 1000)
     )
 );
+
+AOS.init({
+  duration: 500
+});
 
 
 function App() {

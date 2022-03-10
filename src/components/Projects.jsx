@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
 
         {thingsBuilt.map(built => (
-          <div className='group relative h-height405 md:h-fit w-full md:flex mb-10 md:mb-28' key={built.id}>
+          <div className='group relative h-height405 md:h-fit w-full md:flex mb-10 md:mb-28' key={built.id} data-aos="zoom-in-down">
             <div className={`group w-full h-full relative md:w-6/12 lg:w-7/12 md:h-2/4 lg:h-3/4 md:opacity-100 ${built.id % 2 === 1 ? 'md:mr-auto' : 'md:ml-auto'}`}>
               <img src={built.path} alt="backgroundImage" className='w-full h-full' />
               <div className='absolute top-0 bg-backgroundcl5 group-hover:opacity-0 h-full w-full opacity-30' />

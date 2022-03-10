@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className='overflow-hidden font-sansita'>
             
-            <div className="navbar">
+            <div className="navbar fixed w-full z-50">
                 <Navbar />
             </div>
 
@@ -14,11 +14,12 @@ const HomePage = () => {
                 <SidebarLeft />
             </div>
 
-            <div className="sidebar hidden md:contents">
+            <div className="sidebar hidden md:contents" >
                 <SideBar />
             </div>
 
-            <div className="introduction">
+            <div className="introduction" data-aos="fade-up"
+     data-aos-duration="3000">
                 <Introduction />
             </div>
 
