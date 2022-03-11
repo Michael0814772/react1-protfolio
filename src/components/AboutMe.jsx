@@ -32,15 +32,14 @@ const AboutMe = () => {
 
               <p className="aboutpara">
                 Fast-forward to today, and I’ve had the privilege of working at
-                an advertising agency, a start-up, a huge corporation, and a
+                a start-up, a huge corporation, and a
                 student-led design studio. My main focus these days is building
                 accessible, inclusive products and digital experiences at
-                Upstatement for a variety of clients.
+                Upwork for a variety of clients.
               </p>
 
               <p className="aboutpara">
-                I also recently launched a course that covers everything you
-                need to build a web app with the Spotify API using Node & React.
+                I also recently launched a Social media application using React, TaailwindCSS & <span className="text-textcl1">sanity.io</span>.
               </p>
 
               <p className="aboutpara">
