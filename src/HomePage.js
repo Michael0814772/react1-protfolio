@@ -28,7 +28,7 @@ const HomePage = () => {
         <Introduction />
       </div>
 
-      <div className="about-me" id="aboutme">
+      <div className="about-me md:mb-32" id="aboutme">
         <AboutMe />
       </div>
 
