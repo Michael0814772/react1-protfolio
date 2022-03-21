@@ -50,7 +50,7 @@ const thingsBuilt = [
         id: 3
     },
     {
-        name: 'Hexplore Social Media App',
+        name: 'Calculator',
         featured: 'Featured Project',
         about: `A fully responsive Calculator App, that Performs mathematical operations like addition, subtraction, multiplication, and division - and also can Adjust the color theme based on your preference.`,
         stackUsed: {

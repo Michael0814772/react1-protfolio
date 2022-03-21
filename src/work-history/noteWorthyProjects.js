@@ -8,7 +8,6 @@ const noteWorthyProjects = [
             stack1: 'React',
             stack2: 'React Hooks',
             stack3: 'Material UI',
-            id: 41
         },
         id: 1
     },

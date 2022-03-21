@@ -39,7 +39,7 @@ const NoteWorthyProjects = () => {
                     <AiOutlineGithub />
                   </a>
                   <a
-                    href={projects.gitLink}
+                    href={projects.website}
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-textcl1 text-3xl lg:text-5xl"
