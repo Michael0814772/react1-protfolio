@@ -1,7 +1,7 @@
 const noteWorthyProjects = [
     {
         gitLink: 'https://github.com/Michael0814772/pokedex',
-        website: 'pokedex-newapi.netlify.app/',
+        website: 'https://pokedex-newapi.netlify.app/',
         name: 'Pokedex App',
         summary: 'Pokedex app was built using React, React Hooks (useEffect and useSate), Material UI, Public API (fetch API)',
         stackUsed: {
@@ -25,7 +25,7 @@ const noteWorthyProjects = [
     },
     {
         gitLink: 'https://github.com/Michael0814772/food-recipe',
-        website: 'compassionate-euler-0447c8.netlify.app/',
+        website: 'https://compassionate-euler-0447c8.netlify.app/',
         name: 'A Food Recipe APP',
         summary: 'A food recipe app implemeted using react, food recipe Api, Bootstrap, and uuid',
         stackUsed: {
@@ -38,7 +38,7 @@ const noteWorthyProjects = [
     },
     {
         gitLink: 'https://github.com/Michael0814772/ecommerce-demo',
-        website: 'ecommerce-demo-eae2da.netlify.app/',
+        website: 'https://ecommerce-demo-eae2da.netlify.app/',
         name: 'Mini Ecommerce App',
         summary: 'A mini ecommerce app built with React, Redux, React Boostrap, and React Router',
         stackUsed: {
