@@ -10,8 +10,8 @@ const workFunctions = [
         id: 1
     },
     {
-        role: 'Frontend React Developer',
-        year: 'May 2020 - 2022',
+        role: 'Intern React Developer',
+        year: 'March 2021 - 2022',
         functions: {
             function1: 'Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern',
             function2: 'Helped solidify a brand direction for blistabloc that spans both packaging and web',
@@ -20,22 +20,24 @@ const workFunctions = [
         id: 2
     },
     {
-        role: 'Frontend React Engineer',
-        year: 'May 2019 - 2020',
+        role: 'Digital Marketer',
+        year: 'July 2021 - 2022',
         functions: {
-            function1: 'Engineered and maintained major features of Rylofinance customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS',
-            function2: 'Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station',
-            function3: 'Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps',
-            function4: 'Architected and implemented the front-end of Apple Music\'s embeddable web player widget, which lets users log in and listen to full songs in the browser'
+            function1: 'Identified and executed improvements for processes, contents, and lead generation in their website.',
+            function2: 'Collaborated with Content Team to promote Product description post, Blog post, and guest post.',
+            function3: 'Provided market research, campaign results, and consumer trends.',
+            function4: 'Suggested new SEO tools which increased copywriters output by 20%.'
         },
         id: 3
     },
     {
-        role: 'Frontend Engineer',
-        year: 'May 2018 - 2019',
+        role: 'Enumeration Team Lead',
+        year: 'September 2020 - 2021',
         functions: {
-            function1: 'Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery',
-            function2: 'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
+            function1: 'Supervised and managed a team responsible for data enumeration.',
+            function2: 'Actively mapped out locations for Data collection required by the team.',
+            function3: 'Actively made use of a web application for data entry.',
+            function4: 'Application of Microsoft excel for data collection and preparation of report.'
         },
         id: 4
     },

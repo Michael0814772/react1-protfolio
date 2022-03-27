@@ -8,11 +8,11 @@ const placeOfWork = [
         id: 2
     },
     {
-        name: 'Rylofinance',
+        name: 'Machito’s Ebony & Sons Nigeria Limited',
         id: 3
     },
     {
-        name: 'BloomTech',
+        name: 'Kawai Technologies Limited',
         id: 4
     }
 ]
