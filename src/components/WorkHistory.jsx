@@ -29,7 +29,7 @@ const WorkHistory = () => {
           </div>
 
           <div className="w-full flex flex-col sm:flex-row mt-10">
-            <div className="w-full sm:w-width150px sm:pr-8">
+            <div className="w-full sm:w-52 sm:pr-8">
               <ul className="w-full flex flex-row sm:flex-col overflow-auto">
                 {placeOfWork.map((place) => (
                   <li
